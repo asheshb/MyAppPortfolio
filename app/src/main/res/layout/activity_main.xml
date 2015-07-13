@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="#dae7ee" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/textView"
+        android:textSize="28dp"
+        android:textColor="#444"
+        android:paddingTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        style="@style/ProjectButtons"
+        android:text="@string/spotify_streamer"
+        android:id="@+id/spotify_streamer" />
+
+    <Button
+        style="@style/ProjectButtons"
+        android:text="@string/scores_app"
+        android:id="@+id/scres_app" />
+
+    <Button
+        style="@style/ProjectButtons"
+        android:text="@string/library_app"
+        android:id="@+id/library_app" />
+
+    <Button
+        style="@style/ProjectButtons"
+        android:text="@string/build_it_bigger"
+        android:id="@+id/build_it_bigger" />
+
+    <Button
+        style="@style/ProjectButtons"
+        android:text="@string/xyz_reader"
+        android:id="@+id/xyz_reader" />
+
+    <Button
+        style="@style/ProjectButtons"
+        android:text="@string/capstone"
+        android:id="@+id/capstone"
+        android:background="#d90b3e"
+        android:textColor="#fff" />
+</LinearLayout>
